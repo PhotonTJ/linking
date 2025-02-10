@@ -1,0 +1,40 @@
+{
+    "config": {
+        "model_name": "sentence-transformers/all-mpnet-base-v2",
+        "embedding_size": 768,
+        "batch_size": 32,
+        "learning_rate": 2e-05,
+        "epochs": 6,
+        "patience": 4,
+        "threshold": 0.5,
+        "train_size": 0.7,
+        "val_size": 0.15,
+        "test_size": 0.15,
+        "sample_size": 150000,
+        "random_seed": 42,
+        "warmup_steps": 1000,
+        "weight_decay": 0.01
+    },
+    "final_test_metrics": {
+        "micro": {
+            "precision": 0.6345546430827542,
+            "recall": 0.06317610062893082,
+            "f1": 0.11491162843905509
+        },
+        "macro": {
+            "precision": 0.1273318348951016,
+            "recall": 0.054946034715784166,
+            "f1": 0.06487844742089471
+        },
+        "avg_loss": 0.008103088547861924
+    },
+    "best_validation_f1": 0.11629249148727419,
+    "num_techniques": 172,
+    "dataset_sizes": {
+        "original_size": 355416,
+        "sampled_size": 150000,
+        "train": 105000,
+        "validation": 22500,
+        "test": 22500
+    }
+}

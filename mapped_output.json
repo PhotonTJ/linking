@@ -1,0 +1,3805 @@
+[
+    {
+        "CVE_ID": "CVE-2024-53522",
+        "Techniques": {}
+    },
+    {
+        "CVE_ID": "CVE-2024-50593",
+        "Techniques": {
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.22871221601963043
+            },
+            "T1057": {
+                "name": "Process Discovery",
+                "score": 0.20813636481761932
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.20518279075622559
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-50592",
+        "Techniques": {
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2762613296508789
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.244121715426445
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2332516461610794
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.21034784615039825
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.20140382647514343
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-50591",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.283353328704834
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2579043507575989
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.24958358705043793
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.21944187581539154
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.20160557329654694
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-50590",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.30802789330482483
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.28597769141197205
+            },
+            "T1505.005": {
+                "name": "Server Software Component: Terminal Services DLL",
+                "score": 0.2783108949661255
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.25149381160736084
+            },
+            "T1574.005": {
+                "name": "Hijack Execution Flow: Executable Installer File Permissions Weakness",
+                "score": 0.2397281378507614
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.2257409542798996
+            },
+            "T1083": {
+                "name": "File and Directory Discovery",
+                "score": 0.21154984831809998
+            },
+            "T1546.001": {
+                "name": "Event Triggered Execution: Change Default File Association",
+                "score": 0.2088068723678589
+            },
+            "T1014": {
+                "name": "Rootkit",
+                "score": 0.20516842603683472
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-50589",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2722436487674713
+            },
+            "T1036.005": {
+                "name": "Masquerading: Match Legitimate Name or Location",
+                "score": 0.23518604040145874
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.22842559218406677
+            },
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.22369484603405
+            },
+            "T1124": {
+                "name": "System Time Discovery",
+                "score": 0.21854794025421143
+            },
+            "T1595": {
+                "name": "Active Scanning",
+                "score": 0.2175106555223465
+            },
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.21711614727973938
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.21097056567668915
+            },
+            "T1592": {
+                "name": "Gather Victim Host Information",
+                "score": 0.21077360212802887
+            },
+            "T1033": {
+                "name": "System Owner/User Discovery",
+                "score": 0.2072586864233017
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.20361801981925964
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.20346112549304962
+            },
+            "T1590": {
+                "name": "Gather Victim Network Information",
+                "score": 0.20304657518863678
+            },
+            "T1007": {
+                "name": "System Service Discovery",
+                "score": 0.20255129039287567
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-50588",
+        "Techniques": {}
+    },
+    {
+        "CVE_ID": "CVE-2024-48703",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.437385231256485
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3366156220436096
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.32131022214889526
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.3127340078353882
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.3002408444881439
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.2766610383987427
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.27655717730522156
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.26346373558044434
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.24259696900844574
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-44024",
+        "Techniques": {
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3546214699745178
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.28525012731552124
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.27519911527633667
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.27431055903434753
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.2666891813278198
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2563408613204956
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2241799682378769
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.22020259499549866
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.21182061731815338
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.20072197914123535
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-40392",
+        "Techniques": {
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3980240225791931
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.3427238166332245
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3427031636238098
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.32441040873527527
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2700877785682678
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.24443481862545013
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.215774804353714
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.20748946070671082
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-36673",
+        "Techniques": {
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.45426103472709656
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.39311251044273376
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.37260571122169495
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.36810505390167236
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.34279865026474
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.31191542744636536
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2414189726114273
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-33606",
+        "Techniques": {
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.21486598253250122
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.20891214907169342
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-23747",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2671186327934265
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2434263676404953
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.23637093603610992
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.21970167756080627
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.21903033554553986
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.21900106966495514
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.20805871486663818
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-23674",
+        "Techniques": {
+            "T1557": {
+                "name": "Adversary-in-the-Middle",
+                "score": 0.34919092059135437
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.3417969048023224
+            },
+            "T1134": {
+                "name": "Access Token Manipulation",
+                "score": 0.33059388399124146
+            },
+            "T1185": {
+                "name": "Browser Session Hijacking",
+                "score": 0.3057977557182312
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.2860473096370697
+            },
+            "T1505.003": {
+                "name": "Server Software Component: Web Shell",
+                "score": 0.28129488229751587
+            },
+            "T1550.001": {
+                "name": "Use Alternate Authentication Material: Application Access Token",
+                "score": 0.27379310131073
+            },
+            "T1548": {
+                "name": "Abuse Elevation Control Mechanism",
+                "score": 0.2581663727760315
+            },
+            "T1563": {
+                "name": "Remote Service Session Hijacking",
+                "score": 0.252096563577652
+            },
+            "T1528": {
+                "name": "Steal Application Access Token",
+                "score": 0.22455327212810516
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2128666639328003
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.21036309003829956
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-10412",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.5583605766296387
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.22898510098457336
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.21713772416114807
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-10301",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.42066994309425354
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.30445799231529236
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.30207574367523193
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.29077520966529846
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.2609836161136627
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.24833214282989502
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.22652378678321838
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-10300",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3398084044456482
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3387502431869507
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.3076433539390564
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2895517349243164
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.28947892785072327
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.2822532653808594
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.26453685760498047
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-10299",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3560534417629242
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2816723883152008
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.27506962418556213
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.25140687823295593
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.23515048623085022
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.22749246656894684
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2239856868982315
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.2204788476228714
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.2179557979106903
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.21441985666751862
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.20818661153316498
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-10298",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3395012617111206
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.30053436756134033
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.28326737880706787
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2779213786125183
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.26055169105529785
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.24270430207252502
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.23333773016929626
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.23281382024288177
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.22468015551567078
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.2116200178861618
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.2092764973640442
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-10297",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.33535146713256836
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.3273097574710846
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.31171587109565735
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3060319721698761
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2625024914741516
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.24820701777935028
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.23900657892227173
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.23655952513217926
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.21911928057670593
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.21427030861377716
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2024-10296",
+        "Techniques": {
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.3215164840221405
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.30617403984069824
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3057612180709839
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.28048351407051086
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.24633455276489258
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.24564051628112793
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.23480737209320068
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-6425",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3612348735332489
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.3461018204689026
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3212234675884247
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.29852575063705444
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2877267003059387
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.21476542949676514
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2128353714942932
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-33255",
+        "Techniques": {
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.33381393551826477
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3328779339790344
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.291949599981308
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2918495833873749
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.27763718366622925
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.25021493434906006
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.246927872300148
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.2391916960477829
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-29863",
+        "Techniques": {
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.39879468083381653
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.3526507019996643
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3240916132926941
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.3199410140514374
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2684585452079773
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.26286566257476807
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.21144963800907135
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-2628",
+        "Techniques": {
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.37053239345550537
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.3419998288154602
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2935916781425476
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.25156766176223755
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.2463531345129013
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.24417881667613983
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.24130907654762268
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.23065346479415894
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.21846307814121246
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.2179475873708725
+            },
+            "T1211": {
+                "name": "Exploitation for Defense Evasion",
+                "score": 0.21283143758773804
+            },
+            "T1542.002": {
+                "name": "Pre-OS Boot: Component Firmware",
+                "score": 0.2044130563735962
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-1566",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.4771830141544342
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.44997990131378174
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.4024420976638794
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.22423279285430908
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.22019276022911072
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-1151",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.296261191368103
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.28290361166000366
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2464076429605484
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.2382144033908844
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-1006",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.37325921654701233
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.3682415187358856
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.3024555444717407
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.28467708826065063
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.26301684975624084
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.25573572516441345
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.24257445335388184
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-0888",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.37178659439086914
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.32358014583587646
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.2966771125793457
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.20041099190711975
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-0774",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.3691011667251587
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.32922887802124023
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.31998518109321594
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2712213099002838
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.25664621591567993
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.22575262188911438
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.22121469676494598
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-0707",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.36636415123939514
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.31191763281822205
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.30980831384658813
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.30304279923439026
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2830459177494049
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.2659454941749573
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.2284189611673355
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2023-0706",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.3148699998855591
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.28070372343063354
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2788849472999573
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.26920783519744873
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.2531333267688751
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.24863141775131226
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.24193283915519714
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2208583950996399
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-38765",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2995114326477051
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.24076129496097565
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.22082166373729706
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.21572650969028473
+            },
+            "T1505.005": {
+                "name": "Server Software Component: Terminal Services DLL",
+                "score": 0.20869705080986023
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-37461",
+        "Techniques": {
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2757091820240021
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.26728305220603943
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.2340306043624878
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.22728294134140015
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.21436461806297302
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.21235081553459167
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.20060907304286957
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.20058895647525787
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-35117",
+        "Techniques": {
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.2882786691188812
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.269292950630188
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2655555009841919
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2649974822998047
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.2595681846141815
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.22989317774772644
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2240217626094818
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.2198326736688614
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.21958304941654205
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-34770",
+        "Techniques": {
+            "T1036.005": {
+                "name": "Masquerading: Match Legitimate Name or Location",
+                "score": 0.30779868364334106
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.3053685426712036
+            },
+            "T1057": {
+                "name": "Process Discovery",
+                "score": 0.3000706732273102
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2951900362968445
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2914840281009674
+            },
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.28314054012298584
+            },
+            "T1087": {
+                "name": "Account Discovery",
+                "score": 0.2830657958984375
+            },
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.28306519985198975
+            },
+            "T1033": {
+                "name": "System Owner/User Discovery",
+                "score": 0.28020599484443665
+            },
+            "T1592": {
+                "name": "Gather Victim Host Information",
+                "score": 0.27615052461624146
+            },
+            "T1069": {
+                "name": "Permission Groups Discovery",
+                "score": 0.2760460078716278
+            },
+            "T1083": {
+                "name": "File and Directory Discovery",
+                "score": 0.27147865295410156
+            },
+            "T1007": {
+                "name": "System Service Discovery",
+                "score": 0.2675827741622925
+            },
+            "T1046": {
+                "name": "Network Service Discovery",
+                "score": 0.267191618680954
+            },
+            "T1135": {
+                "name": "Network Share Discovery",
+                "score": 0.25870341062545776
+            },
+            "T1590": {
+                "name": "Gather Victim Network Information",
+                "score": 0.2555280327796936
+            },
+            "T1016": {
+                "name": "System Network Configuration Discovery",
+                "score": 0.2545749247074127
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.24727417528629303
+            },
+            "T1120": {
+                "name": "Peripheral Device Discovery",
+                "score": 0.24644751846790314
+            },
+            "T1124": {
+                "name": "System Time Discovery",
+                "score": 0.24266739189624786
+            },
+            "T1018": {
+                "name": "Remote System Discovery",
+                "score": 0.2425680309534073
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.23970361053943634
+            },
+            "T1049": {
+                "name": "System Network Connections Discovery",
+                "score": 0.23230880498886108
+            },
+            "T1595": {
+                "name": "Active Scanning",
+                "score": 0.22376538813114166
+            },
+            "T1217": {
+                "name": "Browser Information Discovery",
+                "score": 0.22181667387485504
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.21100346744060516
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-28533",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3576706349849701
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3504451811313629
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.33506184816360474
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.3036741018295288
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.2827746868133545
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.26874712109565735
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.25262314081192017
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2428450733423233
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.23942023515701294
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.23285068571567535
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-2693",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.34304192662239075
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3208966851234436
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.29305386543273926
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.29097282886505127
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.2455793023109436
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.2184184342622757
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-2676",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3758702576160431
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.3516111969947815
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.34999269247055054
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.3170054852962494
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.21319039165973663
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.21227698028087616
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2006518393754959
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-25394",
+        "Techniques": {
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.4217028021812439
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.39976441860198975
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.3408947288990021
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.32687363028526306
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.32301992177963257
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2804940342903137
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.2461392879486084
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-23612",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3021221458911896
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.299892783164978
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.276477575302124
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.27463775873184204
+            },
+            "T1590": {
+                "name": "Gather Victim Network Information",
+                "score": 0.2539781630039215
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.25029250979423523
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.24107390642166138
+            },
+            "T1087": {
+                "name": "Account Discovery",
+                "score": 0.23796580731868744
+            },
+            "T1033": {
+                "name": "System Owner/User Discovery",
+                "score": 0.22525060176849365
+            },
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.21860091388225555
+            },
+            "T1036.005": {
+                "name": "Masquerading: Match Legitimate Name or Location",
+                "score": 0.2144463211297989
+            },
+            "T1046": {
+                "name": "Network Service Discovery",
+                "score": 0.2134641706943512
+            },
+            "T1135": {
+                "name": "Network Share Discovery",
+                "score": 0.21285291016101837
+            },
+            "T1016": {
+                "name": "System Network Configuration Discovery",
+                "score": 0.20716671645641327
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.20298802852630615
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.20232854783535004
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2022-0388",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.47353595495224
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.4290043115615845
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.4074115455150604
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2779020667076111
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.26289626955986023
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2590872347354889
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.25848326086997986
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.24525684118270874
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.23780223727226257
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.20083998143672943
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2021-39376",
+        "Techniques": {
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.38580209016799927
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3703807294368744
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3571968674659729
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.35121574997901917
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.27865540981292725
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2007683664560318
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2021-39375",
+        "Techniques": {
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.37738198041915894
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.37184152007102966
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3650040924549103
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3451339900493622
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.24428188800811768
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2098117619752884
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.2026863396167755
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2021-32025",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2041323482990265
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2021-27410",
+        "Techniques": {
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.23969818651676178
+            },
+            "T1499": {
+                "name": "Endpoint Denial of Service",
+                "score": 0.2085188925266266
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2046506553888321
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.20315389335155487
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2021-27408",
+        "Techniques": {
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2326744943857193
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.21054936945438385
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.21025630831718445
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.20637555420398712
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2010979950428009
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2021-22156",
+        "Techniques": {}
+    },
+    {
+        "CVE_ID": "CVE-2020-8788",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.3743223547935486
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.31943362951278687
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.28576233983039856
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2534305453300476
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.24043384194374084
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2175881713628769
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2020-28939",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.5210420489311218
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.3376583158969879
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2898353934288025
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.21958725154399872
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.2095353752374649
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.2009483426809311
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2020-28937",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.23614352941513062
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.2355143278837204
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.22978682816028595
+            },
+            "T1083": {
+                "name": "File and Directory Discovery",
+                "score": 0.22420112788677216
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.20944198966026306
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.20936687290668488
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.20399947464466095
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2020-27290",
+        "Techniques": {
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.23956601321697235
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.23166683316230774
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2281615138053894
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.2215685248374939
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.2148105949163437
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2020-27282",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.3698580861091614
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2643074095249176
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.25659167766571045
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.25648409128189087
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.2479177713394165
+            },
+            "T1014": {
+                "name": "Rootkit",
+                "score": 0.23021450638771057
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.2248222678899765
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.22201724350452423
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.2182115763425827
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.21335673332214355
+            },
+            "T1562.004": {
+                "name": "Impair Defenses: Disable or Modify System Firewall",
+                "score": 0.20633211731910706
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2020-27278",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2690999507904053
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.2559785842895508
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.24423828721046448
+            },
+            "T1083": {
+                "name": "File and Directory Discovery",
+                "score": 0.21866439282894135
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.20966683328151703
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2020-24862",
+        "Techniques": {
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.3190736174583435
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.27383023500442505
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.26070481538772583
+            },
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.24922937154769897
+            },
+            "T1057": {
+                "name": "Process Discovery",
+                "score": 0.21563750505447388
+            },
+            "T1046": {
+                "name": "Network Service Discovery",
+                "score": 0.20445552468299866
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2020-12037",
+        "Techniques": {
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.43158024549484253
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.39383822679519653
+            },
+            "T1005": {
+                "name": "Data from Local System",
+                "score": 0.3418692648410797
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.3129120469093323
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.284817636013031
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.27780282497406006
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.24201315641403198
+            },
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.22946304082870483
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2177574634552002
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.21447983384132385
+            },
+            "T1110": {
+                "name": "Brute Force",
+                "score": 0.20618201792240143
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2020-12036",
+        "Techniques": {
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.43158024549484253
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.39383822679519653
+            },
+            "T1005": {
+                "name": "Data from Local System",
+                "score": 0.3418692648410797
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.3129120469093323
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.284817636013031
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.27780282497406006
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.24201315641403198
+            },
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.22946304082870483
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2177574634552002
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.21447983384132385
+            },
+            "T1110": {
+                "name": "Brute Force",
+                "score": 0.20618201792240143
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2019-9607",
+        "Techniques": {
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.4097394347190857
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.40766265988349915
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.4022296965122223
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.3378862738609314
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2897661626338959
+            },
+            "T1547.009": {
+                "name": "Boot or Logon Autostart Execution: Shortcut Modification",
+                "score": 0.24883151054382324
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.22528772056102753
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2143513262271881
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.21289311349391937
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.20301450788974762
+            },
+            "T1574.005": {
+                "name": "Hijack Execution Flow: Executable Installer File Permissions Weakness",
+                "score": 0.2006906270980835
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2019-5024",
+        "Techniques": {
+            "T1543.003": {
+                "name": "Create or Modify System Process: Windows Service",
+                "score": 0.26102131605148315
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.24706561863422394
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.24306131899356842
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.23993682861328125
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.23873120546340942
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.23119816184043884
+            },
+            "T1014": {
+                "name": "Rootkit",
+                "score": 0.2243228554725647
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.22161602973937988
+            },
+            "T1553.004": {
+                "name": "Subvert Trust Controls: Install Root Certificate",
+                "score": 0.22118113934993744
+            },
+            "T1574.011": {
+                "name": "Hijack Execution Flow: Services Registry Permissions Weakness",
+                "score": 0.2123507708311081
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.21231746673583984
+            },
+            "T1505.005": {
+                "name": "Server Software Component: Terminal Services DLL",
+                "score": 0.21109649538993835
+            },
+            "T1546.008": {
+                "name": "Event Triggered Execution: Accessibility Features",
+                "score": 0.20234259963035583
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2019-18254",
+        "Techniques": {
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.32757696509361267
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.32370683550834656
+            },
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.31028613448143005
+            },
+            "T1005": {
+                "name": "Data from Local System",
+                "score": 0.28759461641311646
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.22233539819717407
+            },
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.2099563181400299
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.20742957293987274
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.20616698265075684
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2019-11687",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.4892561435699463
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.29822584986686707
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.23910315334796906
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.23272065818309784
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2266688048839569
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.2227332442998886
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.21332411468029022
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.21300320327281952
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-8856",
+        "Techniques": {
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.29013049602508545
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.28954166173934937
+            },
+            "T1005": {
+                "name": "Data from Local System",
+                "score": 0.24545589089393616
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.21948570013046265
+            },
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.21026448905467987
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.20029385387897491
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-8854",
+        "Techniques": {
+            "T1499": {
+                "name": "Endpoint Denial of Service",
+                "score": 0.3866651654243469
+            },
+            "T1498.001": {
+                "name": "Network Denial of Service: Direct Network Flood",
+                "score": 0.272260844707489
+            },
+            "T1499.002": {
+                "name": "Endpoint Denial of Service: Service Exhaustion Flood",
+                "score": 0.241916686296463
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.209213525056839
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-8852",
+        "Techniques": {
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2517261803150177
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.20900312066078186
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.20395247638225555
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-8850",
+        "Techniques": {
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.434864342212677
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.4244961738586426
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.4132585823535919
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.4102562367916107
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.3889508843421936
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.37420108914375305
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.3544948697090149
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-8848",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.5433963537216187
+            },
+            "T1083": {
+                "name": "File and Directory Discovery",
+                "score": 0.29869481921195984
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.24384309351444244
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.232977494597435
+            },
+            "T1574.005": {
+                "name": "Hijack Execution Flow: Executable Installer File Permissions Weakness",
+                "score": 0.23134613037109375
+            },
+            "T1548": {
+                "name": "Abuse Elevation Control Mechanism",
+                "score": 0.21546751260757446
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.21432211995124817
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.21199780702590942
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.20917794108390808
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-8846",
+        "Techniques": {
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.3917391300201416
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.38395383954048157
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.35469546914100647
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.35296863317489624
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.34673812985420227
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.32828137278556824
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.24276570975780487
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-8844",
+        "Techniques": {
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.3129217028617859
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.2912123501300812
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.27897435426712036
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.27494844794273376
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.2668951451778412
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.2662903666496277
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2032235711812973
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-8842",
+        "Techniques": {
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.2822337746620178
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.28003057837486267
+            },
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.2652101516723633
+            },
+            "T1120": {
+                "name": "Peripheral Device Discovery",
+                "score": 0.24781133234500885
+            },
+            "T1046": {
+                "name": "Network Service Discovery",
+                "score": 0.24493782222270966
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.24387644231319427
+            },
+            "T1036.005": {
+                "name": "Masquerading: Match Legitimate Name or Location",
+                "score": 0.242396280169487
+            },
+            "T1590": {
+                "name": "Gather Victim Network Information",
+                "score": 0.23730772733688354
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.23550941050052643
+            },
+            "T1135": {
+                "name": "Network Share Discovery",
+                "score": 0.2328806072473526
+            },
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.22825786471366882
+            },
+            "T1069": {
+                "name": "Permission Groups Discovery",
+                "score": 0.22574017941951752
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.22505494952201843
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.22391989827156067
+            },
+            "T1057": {
+                "name": "Process Discovery",
+                "score": 0.2218906432390213
+            },
+            "T1049": {
+                "name": "System Network Connections Discovery",
+                "score": 0.21931882202625275
+            },
+            "T1033": {
+                "name": "System Owner/User Discovery",
+                "score": 0.2175641804933548
+            },
+            "T1018": {
+                "name": "Remote System Discovery",
+                "score": 0.21701495349407196
+            },
+            "T1087": {
+                "name": "Account Discovery",
+                "score": 0.21421228349208832
+            },
+            "T1595": {
+                "name": "Active Scanning",
+                "score": 0.21290846168994904
+            },
+            "T1016": {
+                "name": "System Network Configuration Discovery",
+                "score": 0.21156679093837738
+            },
+            "T1124": {
+                "name": "System Time Discovery",
+                "score": 0.20883354544639587
+            },
+            "T1083": {
+                "name": "File and Directory Discovery",
+                "score": 0.206997811794281
+            },
+            "T1217": {
+                "name": "Browser Information Discovery",
+                "score": 0.20481273531913757
+            },
+            "T1007": {
+                "name": "System Service Discovery",
+                "score": 0.20160287618637085
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-7526",
+        "Techniques": {
+            "T1505.005": {
+                "name": "Server Software Component: Terminal Services DLL",
+                "score": 0.23984357714653015
+            },
+            "T1546.008": {
+                "name": "Event Triggered Execution: Accessibility Features",
+                "score": 0.22401203215122223
+            },
+            "T1080": {
+                "name": "Taint Shared Content",
+                "score": 0.22337381541728973
+            },
+            "T1543.004": {
+                "name": "Create or Modify System Process: Launch Daemon",
+                "score": 0.22245073318481445
+            },
+            "T1562.001": {
+                "name": "Impair Defenses: Disable or Modify Tools",
+                "score": 0.22057412564754486
+            },
+            "T1083": {
+                "name": "File and Directory Discovery",
+                "score": 0.21625061333179474
+            },
+            "T1546.001": {
+                "name": "Event Triggered Execution: Change Default File Association",
+                "score": 0.2153187394142151
+            },
+            "T1562.004": {
+                "name": "Impair Defenses: Disable or Modify System Firewall",
+                "score": 0.2142478972673416
+            },
+            "T1543.001": {
+                "name": "Create or Modify System Process: Launch Agent",
+                "score": 0.21195338666439056
+            },
+            "T1562.008": {
+                "name": "Impair Defenses: Disable or Modify Cloud Logs",
+                "score": 0.2115374207496643
+            },
+            "T1547": {
+                "name": "Boot or Logon Autostart Execution",
+                "score": 0.20878805220127106
+            },
+            "T1542.003": {
+                "name": "Pre-OS Boot: Bootkit",
+                "score": 0.20708881318569183
+            },
+            "T1553.004": {
+                "name": "Subvert Trust Controls: Install Root Certificate",
+                "score": 0.2032654583454132
+            },
+            "T1543": {
+                "name": "Create or Modify System Process",
+                "score": 0.201947882771492
+            },
+            "T1562.002": {
+                "name": "Impair Defenses: Disable Windows Event Logging",
+                "score": 0.20148827135562897
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.2007303237915039
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-7518",
+        "Techniques": {
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.2134172022342682
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-7510",
+        "Techniques": {
+            "T1558": {
+                "name": "Steal or Forge Kerberos Tickets",
+                "score": 0.2504916787147522
+            },
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.24812711775302887
+            },
+            "T1110.004": {
+                "name": "Brute Force: Credential Stuffing",
+                "score": 0.2313978224992752
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.20679090917110443
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-5457",
+        "Techniques": {
+            "T1574.009": {
+                "name": "Hijack Execution Flow: Path Interception by Unquoted Path",
+                "score": 0.6869418621063232
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.5524794459342957
+            },
+            "T1574.008": {
+                "name": "Hijack Execution Flow: Path Interception by Search Order Hijacking",
+                "score": 0.47968825697898865
+            },
+            "T1574.001": {
+                "name": "Hijack Execution Flow: DLL Search Order Hijacking",
+                "score": 0.4234004616737366
+            },
+            "T1574.004": {
+                "name": "Hijack Execution Flow: Dylib Hijacking",
+                "score": 0.4218076169490814
+            },
+            "T1027.006": {
+                "name": "Obfuscated Files or Information: HTML Smuggling",
+                "score": 0.3209562301635742
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.3143537938594818
+            },
+            "T1564.009": {
+                "name": "Hide Artifacts: Resource Forking",
+                "score": 0.27146390080451965
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-5438",
+        "Techniques": {
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.3818865120410919
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.24053891003131866
+            },
+            "T1134.002": {
+                "name": "Access Token Manipulation: Create Process with Token",
+                "score": 0.22629013657569885
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.21886898577213287
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-18979",
+        "Techniques": {
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.23846669495105743
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.21459239721298218
+            },
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.21184423565864563
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2080610990524292
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-18978",
+        "Techniques": {
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.26266351342201233
+            },
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.23598463833332062
+            },
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.22047485411167145
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.21880419552326202
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.2127508968114853
+            },
+            "T1005": {
+                "name": "Data from Local System",
+                "score": 0.21086330711841583
+            },
+            "T1046": {
+                "name": "Network Service Discovery",
+                "score": 0.20980437099933624
+            },
+            "T1087": {
+                "name": "Account Discovery",
+                "score": 0.208701953291893
+            },
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.2033350020647049
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-18977",
+        "Techniques": {
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.24813060462474823
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.23581133782863617
+            },
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.2309136986732483
+            },
+            "T1120": {
+                "name": "Peripheral Device Discovery",
+                "score": 0.21339960396289825
+            },
+            "T1592": {
+                "name": "Gather Victim Host Information",
+                "score": 0.21102751791477203
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.20952756702899933
+            },
+            "T1033": {
+                "name": "System Owner/User Discovery",
+                "score": 0.2092447280883789
+            },
+            "T1087": {
+                "name": "Account Discovery",
+                "score": 0.20862853527069092
+            },
+            "T1036.005": {
+                "name": "Masquerading: Match Legitimate Name or Location",
+                "score": 0.20829376578330994
+            },
+            "T1049": {
+                "name": "System Network Connections Discovery",
+                "score": 0.20788265764713287
+            },
+            "T1046": {
+                "name": "Network Service Discovery",
+                "score": 0.20661120116710663
+            },
+            "T1069": {
+                "name": "Permission Groups Discovery",
+                "score": 0.20614132285118103
+            },
+            "T1057": {
+                "name": "Process Discovery",
+                "score": 0.2018565535545349
+            },
+            "T1590": {
+                "name": "Gather Victim Network Information",
+                "score": 0.20049859583377838
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-18976",
+        "Techniques": {
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.2686295509338379
+            },
+            "T1016": {
+                "name": "System Network Configuration Discovery",
+                "score": 0.24814343452453613
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.24662670493125916
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.24594780802726746
+            },
+            "T1036.005": {
+                "name": "Masquerading: Match Legitimate Name or Location",
+                "score": 0.2458476573228836
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.24456720054149628
+            },
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.2416040301322937
+            },
+            "T1069": {
+                "name": "Permission Groups Discovery",
+                "score": 0.24008268117904663
+            },
+            "T1592": {
+                "name": "Gather Victim Host Information",
+                "score": 0.23738636076450348
+            },
+            "T1087": {
+                "name": "Account Discovery",
+                "score": 0.23400235176086426
+            },
+            "T1049": {
+                "name": "System Network Connections Discovery",
+                "score": 0.23080968856811523
+            },
+            "T1590": {
+                "name": "Gather Victim Network Information",
+                "score": 0.22916831076145172
+            },
+            "T1007": {
+                "name": "System Service Discovery",
+                "score": 0.22745105624198914
+            },
+            "T1046": {
+                "name": "Network Service Discovery",
+                "score": 0.22675718367099762
+            },
+            "T1120": {
+                "name": "Peripheral Device Discovery",
+                "score": 0.2256583273410797
+            },
+            "T1018": {
+                "name": "Remote System Discovery",
+                "score": 0.21732722222805023
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.21302466094493866
+            },
+            "T1033": {
+                "name": "System Owner/User Discovery",
+                "score": 0.21274346113204956
+            },
+            "T1057": {
+                "name": "Process Discovery",
+                "score": 0.20925813913345337
+            },
+            "T1124": {
+                "name": "System Time Discovery",
+                "score": 0.20893414318561554
+            },
+            "T1135": {
+                "name": "Network Share Discovery",
+                "score": 0.20854899287223816
+            },
+            "T1217": {
+                "name": "Browser Information Discovery",
+                "score": 0.20809674263000488
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-18975",
+        "Techniques": {}
+    },
+    {
+        "CVE_ID": "CVE-2018-14803",
+        "Techniques": {
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.29220324754714966
+            },
+            "T1046": {
+                "name": "Network Service Discovery",
+                "score": 0.2809125483036041
+            },
+            "T1033": {
+                "name": "System Owner/User Discovery",
+                "score": 0.27262839674949646
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.27011391520500183
+            },
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.2605639696121216
+            },
+            "T1069": {
+                "name": "Permission Groups Discovery",
+                "score": 0.2537618577480316
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.24736201763153076
+            },
+            "T1036.005": {
+                "name": "Masquerading: Match Legitimate Name or Location",
+                "score": 0.2462233453989029
+            },
+            "T1016": {
+                "name": "System Network Configuration Discovery",
+                "score": 0.2452627718448639
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.24442940950393677
+            },
+            "T1120": {
+                "name": "Peripheral Device Discovery",
+                "score": 0.2420789748430252
+            },
+            "T1124": {
+                "name": "System Time Discovery",
+                "score": 0.24015477299690247
+            },
+            "T1018": {
+                "name": "Remote System Discovery",
+                "score": 0.23973330855369568
+            },
+            "T1057": {
+                "name": "Process Discovery",
+                "score": 0.2393372505903244
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.23351450264453888
+            },
+            "T1590": {
+                "name": "Gather Victim Network Information",
+                "score": 0.23033277690410614
+            },
+            "T1087": {
+                "name": "Account Discovery",
+                "score": 0.22739364206790924
+            },
+            "T1595": {
+                "name": "Active Scanning",
+                "score": 0.22122007608413696
+            },
+            "T1007": {
+                "name": "System Service Discovery",
+                "score": 0.21927674114704132
+            },
+            "T1135": {
+                "name": "Network Share Discovery",
+                "score": 0.21457116305828094
+            },
+            "T1592": {
+                "name": "Gather Victim Host Information",
+                "score": 0.2125162035226822
+            },
+            "T1217": {
+                "name": "Browser Information Discovery",
+                "score": 0.2107619345188141
+            },
+            "T1083": {
+                "name": "File and Directory Discovery",
+                "score": 0.20896805822849274
+            },
+            "T1049": {
+                "name": "System Network Connections Discovery",
+                "score": 0.20387420058250427
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2018-14786",
+        "Techniques": {
+            "T1021.002": {
+                "name": "Remote Services: SMB/Windows Admin Shares",
+                "score": 0.2655417323112488
+            },
+            "T1078.001": {
+                "name": "Valid Accounts: Default Accounts",
+                "score": 0.24282345175743103
+            },
+            "T1110.004": {
+                "name": "Brute Force: Credential Stuffing",
+                "score": 0.24110904335975647
+            },
+            "T1110.001": {
+                "name": "Brute Force: Password Guessing",
+                "score": 0.22606079280376434
+            },
+            "T1021": {
+                "name": "Remote Services",
+                "score": 0.214033305644989
+            },
+            "T1078": {
+                "name": "Valid Accounts",
+                "score": 0.20688235759735107
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-6018",
+        "Techniques": {
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.3482159972190857
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2924485206604004
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.255737841129303
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.23687171936035156
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.22052715718746185
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.2135232388973236
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.20144705474376678
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-5149",
+        "Techniques": {
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.2712666690349579
+            },
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.25022387504577637
+            },
+            "T1557": {
+                "name": "Adversary-in-the-Middle",
+                "score": 0.21449917554855347
+            },
+            "T1134": {
+                "name": "Access Token Manipulation",
+                "score": 0.21131575107574463
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.20621265470981598
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-16776",
+        "Techniques": {
+            "T1550.001": {
+                "name": "Use Alternate Authentication Material: Application Access Token",
+                "score": 0.25669005513191223
+            },
+            "T1557": {
+                "name": "Adversary-in-the-Middle",
+                "score": 0.25479868054389954
+            },
+            "T1134": {
+                "name": "Access Token Manipulation",
+                "score": 0.24260854721069336
+            },
+            "T1505.003": {
+                "name": "Server Software Component: Web Shell",
+                "score": 0.23662719130516052
+            },
+            "T1548": {
+                "name": "Abuse Elevation Control Mechanism",
+                "score": 0.21653211116790771
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.20401430130004883
+            },
+            "T1185": {
+                "name": "Browser Session Hijacking",
+                "score": 0.20211204886436462
+            },
+            "T1563": {
+                "name": "Remote Service Session Hijacking",
+                "score": 0.20131218433380127
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-14101",
+        "Techniques": {
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.21131004393100739
+            },
+            "T1546.001": {
+                "name": "Event Triggered Execution: Change Default File Association",
+                "score": 0.20824404060840607
+            },
+            "T1546.008": {
+                "name": "Event Triggered Execution: Accessibility Features",
+                "score": 0.20186565816402435
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.20080408453941345
+            },
+            "T1033": {
+                "name": "System Owner/User Discovery",
+                "score": 0.20075494050979614
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-14006",
+        "Techniques": {
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.22574059665203094
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.22562476992607117
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.21124745905399323
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.20693306624889374
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.20183342695236206
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-14002",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.246519073843956
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.20676490664482117
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-12726",
+        "Techniques": {
+            "T1078.001": {
+                "name": "Valid Accounts: Default Accounts",
+                "score": 0.3679756224155426
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.3634161353111267
+            },
+            "T1021": {
+                "name": "Remote Services",
+                "score": 0.35246896743774414
+            },
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.30510610342025757
+            },
+            "T1550.002": {
+                "name": "Use Alternate Authentication Material: Pass the Hash",
+                "score": 0.25298959016799927
+            },
+            "T1021.002": {
+                "name": "Remote Services: SMB/Windows Admin Shares",
+                "score": 0.24947910010814667
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.2243482768535614
+            },
+            "T1114.002": {
+                "name": "Email Collection: Remote Email Collection",
+                "score": 0.22222056984901428
+            },
+            "T1110": {
+                "name": "Brute Force",
+                "score": 0.21825894713401794
+            },
+            "T1110.001": {
+                "name": "Brute Force: Password Guessing",
+                "score": 0.2092055380344391
+            },
+            "T1550.003": {
+                "name": "Use Alternate Authentication Material: Pass the Ticket",
+                "score": 0.20809859037399292
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-12725",
+        "Techniques": {
+            "T1078.001": {
+                "name": "Valid Accounts: Default Accounts",
+                "score": 0.305787593126297
+            },
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.2976246476173401
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.2891296148300171
+            },
+            "T1021": {
+                "name": "Remote Services",
+                "score": 0.27726876735687256
+            },
+            "T1021.002": {
+                "name": "Remote Services: SMB/Windows Admin Shares",
+                "score": 0.2264116108417511
+            },
+            "T1550.002": {
+                "name": "Use Alternate Authentication Material: Pass the Hash",
+                "score": 0.22267572581768036
+            },
+            "T1078": {
+                "name": "Valid Accounts",
+                "score": 0.20959560573101044
+            },
+            "T1558.003": {
+                "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+                "score": 0.20768071711063385
+            },
+            "T1114.002": {
+                "name": "Email Collection: Remote Email Collection",
+                "score": 0.20069681107997894
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-12724",
+        "Techniques": {
+            "T1550.002": {
+                "name": "Use Alternate Authentication Material: Pass the Hash",
+                "score": 0.3181062340736389
+            },
+            "T1078.001": {
+                "name": "Valid Accounts: Default Accounts",
+                "score": 0.3118707239627838
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.3048202097415924
+            },
+            "T1021": {
+                "name": "Remote Services",
+                "score": 0.2971266806125641
+            },
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.2551494836807251
+            },
+            "T1114.002": {
+                "name": "Email Collection: Remote Email Collection",
+                "score": 0.24448201060295105
+            },
+            "T1110.004": {
+                "name": "Brute Force: Credential Stuffing",
+                "score": 0.24308666586875916
+            },
+            "T1558.003": {
+                "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+                "score": 0.24255599081516266
+            },
+            "T1021.002": {
+                "name": "Remote Services: SMB/Windows Admin Shares",
+                "score": 0.23377661406993866
+            },
+            "T1558": {
+                "name": "Steal or Forge Kerberos Tickets",
+                "score": 0.2324429601430893
+            },
+            "T1078": {
+                "name": "Valid Accounts",
+                "score": 0.2221294343471527
+            },
+            "T1133": {
+                "name": "External Remote Services",
+                "score": 0.20582623779773712
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-12723",
+        "Techniques": {
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.370449960231781
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.3556414842605591
+            },
+            "T1078.001": {
+                "name": "Valid Accounts: Default Accounts",
+                "score": 0.325509637594223
+            },
+            "T1021": {
+                "name": "Remote Services",
+                "score": 0.3192582130432129
+            },
+            "T1078": {
+                "name": "Valid Accounts",
+                "score": 0.2719953954219818
+            },
+            "T1550.002": {
+                "name": "Use Alternate Authentication Material: Pass the Hash",
+                "score": 0.2640986740589142
+            },
+            "T1110.004": {
+                "name": "Brute Force: Credential Stuffing",
+                "score": 0.24828262627124786
+            },
+            "T1114.002": {
+                "name": "Email Collection: Remote Email Collection",
+                "score": 0.23958782851696014
+            },
+            "T1021.002": {
+                "name": "Remote Services: SMB/Windows Admin Shares",
+                "score": 0.23128744959831238
+            },
+            "T1558.003": {
+                "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+                "score": 0.23001514375209808
+            },
+            "T1558": {
+                "name": "Steal or Forge Kerberos Tickets",
+                "score": 0.20915424823760986
+            },
+            "T1005": {
+                "name": "Data from Local System",
+                "score": 0.207397922873497
+            },
+            "T1110": {
+                "name": "Brute Force",
+                "score": 0.20594730973243713
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-12722",
+        "Techniques": {}
+    },
+    {
+        "CVE_ID": "CVE-2017-12721",
+        "Techniques": {
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.252805233001709
+            },
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.21396760642528534
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.20839756727218628
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.2060246467590332
+            },
+            "T1134": {
+                "name": "Access Token Manipulation",
+                "score": 0.2052394449710846
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-12720",
+        "Techniques": {
+            "T1543": {
+                "name": "Create or Modify System Process",
+                "score": 0.2699178159236908
+            },
+            "T1110.004": {
+                "name": "Brute Force: Credential Stuffing",
+                "score": 0.21998149156570435
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2087913453578949
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-12718",
+        "Techniques": {}
+    },
+    {
+        "CVE_ID": "CVE-2017-12701",
+        "Techniques": {
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.42801719903945923
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.40947291254997253
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.3859501779079437
+            },
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.33935844898223877
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.32757481932640076
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.3261716365814209
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.30822306871414185
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-10724",
+        "Techniques": {
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.20390601456165314
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-10723",
+        "Techniques": {
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.23635362088680267
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-10721",
+        "Techniques": {
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.3069570064544678
+            },
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.2460043877363205
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.21856525540351868
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.20206396281719208
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.20198148488998413
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-10719",
+        "Techniques": {
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.24926544725894928
+            },
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.24666830897331238
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.23623695969581604
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.21780620515346527
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.21168678998947144
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.20969712734222412
+            },
+            "T1078.001": {
+                "name": "Valid Accounts: Default Accounts",
+                "score": 0.20903687179088593
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2017-10718",
+        "Techniques": {
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.24894385039806366
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.23221014440059662
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.22503040730953217
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.2198127657175064
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.20570074021816254
+            },
+            "T1056.004": {
+                "name": "Input Capture: Credential API Hooking",
+                "score": 0.20379337668418884
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2016-8358",
+        "Techniques": {
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.2731013596057892
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2016-8355",
+        "Techniques": {
+            "T1562.004": {
+                "name": "Impair Defenses: Disable or Modify System Firewall",
+                "score": 0.3491497039794922
+            },
+            "T1543": {
+                "name": "Create or Modify System Process",
+                "score": 0.34905460476875305
+            },
+            "T1505.005": {
+                "name": "Server Software Component: Terminal Services DLL",
+                "score": 0.3411712050437927
+            },
+            "T1014": {
+                "name": "Rootkit",
+                "score": 0.3375202715396881
+            },
+            "T1546.001": {
+                "name": "Event Triggered Execution: Change Default File Association",
+                "score": 0.32214951515197754
+            },
+            "T1547": {
+                "name": "Boot or Logon Autostart Execution",
+                "score": 0.31708458065986633
+            },
+            "T1553.004": {
+                "name": "Subvert Trust Controls: Install Root Certificate",
+                "score": 0.31179574131965637
+            },
+            "T1562.002": {
+                "name": "Impair Defenses: Disable Windows Event Logging",
+                "score": 0.2976398169994354
+            },
+            "T1080": {
+                "name": "Taint Shared Content",
+                "score": 0.2897295653820038
+            },
+            "T1574.010": {
+                "name": "Hijack Execution Flow: Services File Permissions Weakness",
+                "score": 0.28683626651763916
+            },
+            "T1542.003": {
+                "name": "Pre-OS Boot: Bootkit",
+                "score": 0.28449511528015137
+            },
+            "T1562.001": {
+                "name": "Impair Defenses: Disable or Modify Tools",
+                "score": 0.2823616862297058
+            },
+            "T1543.003": {
+                "name": "Create or Modify System Process: Windows Service",
+                "score": 0.26843002438545227
+            },
+            "T1547.006": {
+                "name": "Boot or Logon Autostart Execution: Kernel Modules and Extensions",
+                "score": 0.26533395051956177
+            },
+            "T1546.008": {
+                "name": "Event Triggered Execution: Accessibility Features",
+                "score": 0.26509717106819153
+            },
+            "T1543.004": {
+                "name": "Create or Modify System Process: Launch Daemon",
+                "score": 0.2577723562717438
+            },
+            "T1562.008": {
+                "name": "Impair Defenses: Disable or Modify Cloud Logs",
+                "score": 0.2570062577724457
+            },
+            "T1562.009": {
+                "name": "Impair Defenses: Safe Mode Boot",
+                "score": 0.2545144855976105
+            },
+            "T1556.006": {
+                "name": "Modify Authentication Process: Multi-Factor Authentication",
+                "score": 0.2511032521724701
+            },
+            "T1562.007": {
+                "name": "Impair Defenses: Disable or Modify Cloud Firewall",
+                "score": 0.24342961609363556
+            },
+            "T1543.001": {
+                "name": "Create or Modify System Process: Launch Agent",
+                "score": 0.22299276292324066
+            },
+            "T1546.004": {
+                "name": "Event Triggered Execution: Unix Shell Configuration Modification",
+                "score": 0.22164832055568695
+            },
+            "T1037": {
+                "name": "Boot or Logon Initialization Scripts",
+                "score": 0.21902649104595184
+            },
+            "T1027.009": {
+                "name": "Obfuscated Files or Information: Embedded Payloads",
+                "score": 0.21783527731895447
+            },
+            "T1574.005": {
+                "name": "Hijack Execution Flow: Executable Installer File Permissions Weakness",
+                "score": 0.20631781220436096
+            },
+            "T1546.016": {
+                "name": "Event Triggered Execution: Installer Packages",
+                "score": 0.2031043916940689
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2016-4328",
+        "Techniques": {
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.25124356150627136
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.22895130515098572
+            },
+            "T1069": {
+                "name": "Permission Groups Discovery",
+                "score": 0.22132021188735962
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.21219582855701447
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.21001729369163513
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.20359762012958527
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.2030528485774994
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2014-6713",
+        "Techniques": {
+            "T1539": {
+                "name": "Steal Web Session Cookie",
+                "score": 0.26579394936561584
+            },
+            "T1036.001": {
+                "name": "Masquerading: Invalid Code Signature",
+                "score": 0.24527938663959503
+            },
+            "T1553.002": {
+                "name": "Subvert Trust Controls: Code Signing",
+                "score": 0.23095640540122986
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2013-4425",
+        "Techniques": {
+            "T1078.001": {
+                "name": "Valid Accounts: Default Accounts",
+                "score": 0.28780457377433777
+            },
+            "T1552.004": {
+                "name": "Unsecured Credentials: Private Keys",
+                "score": 0.27405881881713867
+            },
+            "T1552.001": {
+                "name": "Unsecured Credentials: Credentials In Files",
+                "score": 0.2727736830711365
+            },
+            "T1005": {
+                "name": "Data from Local System",
+                "score": 0.25336793065071106
+            },
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.21409258246421814
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2011-3386",
+        "Techniques": {
+            "T1040": {
+                "name": "Network Sniffing",
+                "score": 0.22216582298278809
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2006-2517",
+        "Techniques": {
+            "T1027": {
+                "name": "Obfuscated Files or Information",
+                "score": 0.32522788643836975
+            },
+            "T1562.003": {
+                "name": "Impair Defenses: Impair Command History Logging",
+                "score": 0.32158830761909485
+            },
+            "T1574.007": {
+                "name": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+                "score": 0.32110926508903503
+            },
+            "T1574.006": {
+                "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
+                "score": 0.30317234992980957
+            }
+        }
+    },
+    {
+        "CVE_ID": "CVE-2005-2285",
+        "Techniques": {
+            "T1016": {
+                "name": "System Network Configuration Discovery",
+                "score": 0.24795162677764893
+            },
+            "T1111": {
+                "name": "Multi-Factor Authentication Interception",
+                "score": 0.23843736946582794
+            },
+            "T1087": {
+                "name": "Account Discovery",
+                "score": 0.23625417053699493
+            },
+            "T1082": {
+                "name": "System Information Discovery",
+                "score": 0.22804179787635803
+            },
+            "T1046": {
+                "name": "Network Service Discovery",
+                "score": 0.22564977407455444
+            },
+            "T1057": {
+                "name": "Process Discovery",
+                "score": 0.2223348170518875
+            },
+            "T1615": {
+                "name": "Group Policy Discovery",
+                "score": 0.22183826565742493
+            },
+            "T1134.001": {
+                "name": "Access Token Manipulation: Token Impersonation/Theft",
+                "score": 0.21938131749629974
+            },
+            "T1590": {
+                "name": "Gather Victim Network Information",
+                "score": 0.21886767446994781
+            },
+            "T1124": {
+                "name": "System Time Discovery",
+                "score": 0.21859382092952728
+            },
+            "T1036.005": {
+                "name": "Masquerading: Match Legitimate Name or Location",
+                "score": 0.21841001510620117
+            },
+            "T1033": {
+                "name": "System Owner/User Discovery",
+                "score": 0.21807260811328888
+            },
+            "T1083": {
+                "name": "File and Directory Discovery",
+                "score": 0.21787820756435394
+            },
+            "T1595": {
+                "name": "Active Scanning",
+                "score": 0.21702031791210175
+            },
+            "T1069": {
+                "name": "Permission Groups Discovery",
+                "score": 0.21592961251735687
+            },
+            "T1120": {
+                "name": "Peripheral Device Discovery",
+                "score": 0.2073601335287094
+            },
+            "T1550.004": {
+                "name": "Use Alternate Authentication Material: Web Session Cookie",
+                "score": 0.20674660801887512
+            },
+            "T1018": {
+                "name": "Remote System Discovery",
+                "score": 0.20604009926319122
+            },
+            "T1217": {
+                "name": "Browser Information Discovery",
+                "score": 0.20471540093421936
+            }
+        }
+    }
+]

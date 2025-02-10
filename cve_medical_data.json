@@ -1,0 +1,438 @@
+[
+    {
+        "CVE_ID": "CVE-2024-53522",
+        "Description": "Bangkok Medical Software HOSxP XE v4.64.11.3 was discovered to contain a hardcoded IDEA Key-IV pair in the HOSxPXE4.exe and HOS-WIN32.INI components. This allows attackers to access sensitive information."
+    },
+    {
+        "CVE_ID": "CVE-2024-50593",
+        "Description": "An attacker with local access to the medical office computer can access restricted functions of the Elefant Service tool by using a hard-coded \"Hotline\" password in the Elefant service binary, which is shipped with the software."
+    },
+    {
+        "CVE_ID": "CVE-2024-50592",
+        "Description": "An attacker with local access the to medical office computer can escalate his Windows user privileges to \"NT AUTHORITY\\SYSTEM\" by exploiting a race condition in the Elefant Update Service during the repair or update process. When using the repair function, the service queries the server for a list of files and their hashes. In addition, instructions to execute binaries to finalize the repair process are included. The executables are executed as \"NT AUTHORITY\\SYSTEM\" after they are copied over to the user writable installation folder (C:\\Elefant1). This means that a user can overwrite either \"PostESUUpdate.exe\" or \"Update_OpenJava.exe\" in the time frame after the copy and before the execution of the final repair step. The overwritten executable is then executed as \"NT AUTHORITY\\SYSTEM\"."
+    },
+    {
+        "CVE_ID": "CVE-2024-50591",
+        "Description": "An attacker with local access the to medical office computer can escalate his Windows user privileges to \"NT AUTHORITY\\SYSTEM\" by exploiting a command injection vulnerability in the Elefant Update Service. The command injection can be exploited by communicating with the Elefant Update Service which is running as \"SYSTEM\" via Windows Named Pipes.The Elefant Software Updater (ESU) consists of two components. An ESU service which runs as \"NT AUTHORITY\\SYSTEM\" and an ESU tray client which communicates with the service to update or repair the installation and is running with user permissions. The communication is implemented using named pipes. A crafted message of type \"MessageType.SupportServiceInfos\" can be sent to the local ESU service to inject commands, which are then executed as \"NT AUTHORITY\\SYSTEM\"."
+    },
+    {
+        "CVE_ID": "CVE-2024-50590",
+        "Description": "Attackers with local access to the medical office computer can escalate their Windows user privileges to \"NT AUTHORITY\\SYSTEM\" by overwriting one of two Elefant service binaries with weak permissions. The default installation directory of Elefant is \"C:\\Elefant1\" which is writable for all users. In addition, the Elefant installer registers two Firebird database services which are running as &#8220;NT AUTHORITY\\SYSTEM&#8221;. Path: C:\\Elefant1\\Firebird_2\\bin\\fbserver.exe Path: C:\\Elefant1\\Firebird_2\\bin\\fbguard.exe Both service binaries are user writable. This means that a local attacker can rename one of the service binaries, replace the service executable with a new executable, and then restart the system. Once the system has rebooted, the new service binary is executed as \"NT AUTHORITY\\SYSTEM\"."
+    },
+    {
+        "CVE_ID": "CVE-2024-50589",
+        "Description": "An unauthenticated attacker with access to the local network of the medical office can query an unprotected Fast Healthcare Interoperability Resources (FHIR) API to get access to sensitive electronic health records (EHR)."
+    },
+    {
+        "CVE_ID": "CVE-2024-50588",
+        "Description": "An unauthenticated attacker with access to the local network of the medical office can use known default credentials to gain remote DBA access to the Elefant Firebird database. The data in the database includes patient data and login credentials among other sensitive data. In addition, this enables an attacker to create and overwrite arbitrary files on the server filesystem with the rights of the Firebird database (\"NT AUTHORITY\\SYSTEM\")."
+    },
+    {
+        "CVE_ID": "CVE-2024-48703",
+        "Description": "PhpGurukul Medical Card Generation System v1.0 is vulnerable to Cross Site Scripting (XSS) in /admin/search-medicalcard.php via the searchdata parameter."
+    },
+    {
+        "CVE_ID": "CVE-2024-44024",
+        "Description": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in NicheAddons Medical Addon for Elementor allows Stored XSS.This issue affects Medical Addon for Elementor: from n/a through 1.4."
+    },
+    {
+        "CVE_ID": "CVE-2024-40392",
+        "Description": "SourceCodester Pharmacy/Medical Store Point of Sale System Using PHP/MySQL and Bootstrap Framework with Source Code 1.0 was discovered to contain a SQL injection vulnerability via the name parameter under addnew.php."
+    },
+    {
+        "CVE_ID": "CVE-2024-36673",
+        "Description": "Sourcecodester Pharmacy/Medical Store Point of Sale System 1.0 is vulnerable SQL Injection via login.php. This vulnerability stems from inadequate validation of user inputs for the email and password parameters, allowing attackers to inject malicious SQL queries."
+    },
+    {
+        "CVE_ID": "CVE-2024-33606",
+        "Description": "An attacker could retrieve sensitive files (medical images) as well as plant new medical images or overwrite existing medical images on a MicroDicom DICOM Viewer system. User interaction is required to exploit this vulnerability."
+    },
+    {
+        "CVE_ID": "CVE-2024-23747",
+        "Description": "The Moderna Sistemas ModernaNet Hospital Management System 2024 is susceptible to an Insecure Direct Object Reference (IDOR) vulnerability. This vulnerability resides in the system's handling of user data access through a /Modernanet/LAUDO/LAU0000100/Laudo?id= URI. By manipulating this id parameter, an attacker can gain access to sensitive medical information."
+    },
+    {
+        "CVE_ID": "CVE-2024-23674",
+        "Description": "The Online-Ausweis-Funktion eID scheme in the German National Identity card through 2024-02-15 allows authentication bypass by spoofing. A man-in-the-middle attacker can assume a victim's identify for access to government, medical, and financial resources, and can also extract personal data from the card, aka the \"sPACE (Spoofing Password Authenticated Connection Establishment)\" issue. This occurs because of a combination of factors, such as insecure PIN entry (for basic readers) and eid:// deeplinking. The victim must be using a modified eID kernel, which may occur if the victim is tricked into installing a fake version of an official app. NOTE: the BSI position is \"ensuring a secure operational environment at the client side is an obligation of the ID card owner.\""
+    },
+    {
+        "CVE_ID": "CVE-2024-10412",
+        "Description": "A vulnerability was found in Poco-z Guns-Medical 1.0. It has been declared as problematic. Affected by this vulnerability is the function upload of the file /mgr/upload of the component File Upload. The manipulation of the argument picture leads to cross site scripting. The attack can be launched remotely."
+    },
+    {
+        "CVE_ID": "CVE-2024-10301",
+        "Description": "A vulnerability, which was classified as critical, was found in PHPGurukul Medical Card Generation System 1.0. Affected is an unknown function of the file /admin/search-medicalcard.php of the component Search. The manipulation of the argument searchdata leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used."
+    },
+    {
+        "CVE_ID": "CVE-2024-10300",
+        "Description": "A vulnerability, which was classified as critical, has been found in PHPGurukul Medical Card Generation System 1.0. This issue affects some unknown processing of the file /admin/view-enquiry.php of the component View Enquiry Page. The manipulation of the argument viewid leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used."
+    },
+    {
+        "CVE_ID": "CVE-2024-10299",
+        "Description": "A vulnerability classified as critical was found in PHPGurukul Medical Card Generation System 1.0. This vulnerability affects unknown code of the file /admin/view-card-detail.php of the component Managecard View Detail Page. The manipulation of the argument viewid leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used."
+    },
+    {
+        "CVE_ID": "CVE-2024-10298",
+        "Description": "A vulnerability classified as critical has been found in PHPGurukul Medical Card Generation System 1.0. This affects an unknown part of the file /admin/edit-card-detail.php of the component Managecard Edit Card Detail Page. The manipulation of the argument editid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used."
+    },
+    {
+        "CVE_ID": "CVE-2024-10297",
+        "Description": "A vulnerability was found in PHPGurukul Medical Card Generation System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /admin/changeimage.php of the component Managecard Edit Image Page. The manipulation of the argument editid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used."
+    },
+    {
+        "CVE_ID": "CVE-2024-10296",
+        "Description": "A vulnerability was found in PHPGurukul Medical Card Generation System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/card-bwdates-reports-details.php of the component Report of Medical Card Page. The manipulation of the argument fromdate/todate leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used."
+    },
+    {
+        "CVE_ID": "CVE-2023-6425",
+        "Description": "A vulnerability has been discovered in BigProf Online Clinic Management System 2.2, which does not sufficiently encode user-controlled input, resulting in persistent XSS through /clinic/medical_records_view.php, in the FirstRecord parameter. Exploitation of this vulnerability could allow an attacking user to store dangerous JavaScript payloads on the system that will be triggered when the page loads."
+    },
+    {
+        "CVE_ID": "CVE-2023-33255",
+        "Description": "An issue was discovered in Papaya Viewer 1.0.1449. User-supplied input in form of DICOM or NIFTI images can be loaded into the Papaya web application without any kind of sanitization. This allows injection of arbitrary JavaScript code into image metadata, which is executed when that metadata is displayed in the Papaya web application."
+    },
+    {
+        "CVE_ID": "CVE-2023-29863",
+        "Description": "Medical Systems Co. Medisys Weblab Products v19.4.03 was discovered to contain a SQL injection vulnerability via the tem:statement parameter in the WSDL files."
+    },
+    {
+        "CVE_ID": "CVE-2023-2628",
+        "Description": "The KiviCare WordPress plugin before 3.2.1 does not have CSRF checks (either flawed or missing completely) in various AJAX actions, which could allow attackers to make logged in users perform unwanted actions via CSRF attacks. This includes, but is not limited to: Delete arbitrary appointments/medical records/etc, create/update various users (patients, doctors etc)"
+    },
+    {
+        "CVE_ID": "CVE-2023-1566",
+        "Description": "A vulnerability was found in SourceCodester Medical Certificate Generator App 1.0. It has been declared as critical. This vulnerability affects unknown code of the file action.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-223558 is the identifier assigned to this vulnerability."
+    },
+    {
+        "CVE_ID": "CVE-2023-1151",
+        "Description": "A vulnerability was found in SourceCodester Electronic Medical Records System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file administrator.php of the component Cookie Handler. The manipulation of the argument userid leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-222163."
+    },
+    {
+        "CVE_ID": "CVE-2023-1006",
+        "Description": "A vulnerability was found in SourceCodester Medical Certificate Generator App 1.0. It has been classified as problematic. This affects an unknown part of the component New Record Handler. The manipulation of the argument Firstname/Middlename/Lastname/Suffix/Nationality/Doctor Fullname/Doctor Suffix with the input \"><script>prompt(1)</script> leads to cross site scripting. It is possible to initiate the attack remotely. The associated identifier of this vulnerability is VDB-221739."
+    },
+    {
+        "CVE_ID": "CVE-2023-0888",
+        "Description": "An improper neutralization of directives in dynamically evaluated code vulnerability in the WiFi Battery embedded web server in versions L90/U70 and L92/U92 can be used to gain administrative access to the WiFi communication module. An authenticated user, having access to both the medical device WiFi network (such as a biomedical engineering staff member) and the specific B.Braun Battery Pack SP with WiFi web server credentials, could get administrative (root) access on the infusion pump communication module. This could be used as a vector to start further attacks"
+    },
+    {
+        "CVE_ID": "CVE-2023-0774",
+        "Description": "A vulnerability has been found in SourceCodester Medical Certificate Generator App 1.0 and classified as critical. This vulnerability affects unknown code of the file action.php. The manipulation of the argument lastname leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-220558 is the identifier assigned to this vulnerability."
+    },
+    {
+        "CVE_ID": "CVE-2023-0707",
+        "Description": "A vulnerability was found in SourceCodester Medical Certificate Generator App 1.0. It has been rated as critical. Affected by this issue is the function delete_record of the file function.php. The manipulation of the argument id leads to sql injection. VDB-220346 is the identifier assigned to this vulnerability."
+    },
+    {
+        "CVE_ID": "CVE-2023-0706",
+        "Description": "A vulnerability, which was classified as critical, has been found in SourceCodester Medical Certificate Generator App 1.0. Affected by this issue is some unknown functionality of the file manage_record.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The identifier of this vulnerability is VDB-220340."
+    },
+    {
+        "CVE_ID": "CVE-2022-38765",
+        "Description": "Canon Medical Informatics Vitrea Vision 7.7.76.1 does not adequately enforce access controls. An authenticated user is able to gain unauthorized access to imaging records by tampering with the vitrea-view/studies/search patientId parameter."
+    },
+    {
+        "CVE_ID": "CVE-2022-37461",
+        "Description": "Multiple cross-site scripting (XSS) vulnerabilities in Canon Medical Vitrea View 7.x before 7.7.6 allow remote attackers to inject arbitrary web script or HTML via (1) the input after the error subdirectory to the /vitrea-view/error/ subdirectory, or the (2) groupID, (3) offset, or (4) limit parameter to an Administrative Panel (Group and Users) page. There is a risk of an attacker retrieving patient information."
+    },
+    {
+        "CVE_ID": "CVE-2022-35117",
+        "Description": "Clinic's Patient Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via update_medicine_details.php. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Packing text box under the Update Medical Details module."
+    },
+    {
+        "CVE_ID": "CVE-2022-34770",
+        "Description": "Tabit - sensitive information disclosure. Several APIs on the web system display, without authorization, sensitive information such as health statements, previous bills in a specific restaurant, alcohol consumption and smoking habits. Each of the described API&#8217;s, has in its URL one or more MongoDB ID which is not so simple to enumerate. However, they each receive a &#8216;tiny URL&#8217; in Tabit&#8217;s domain, in the form of https://tbit.be/{suffix} with suffix being a 5 characters long string containing numbers, lower- and upper-case letters. It is not so simple to enumerate them all, but really easy to find some that work and lead to a personal endpoint. This is both an example of OWASP: API4 - rate limiting and OWASP: API1 - Broken object level authorization. Furthermore, the redirect URL disclosed the MongoDB IDs discussed above, and we could use them to query other endpoints disclosing more personal information. For example: The URL https://tabitisrael.co.il/online-reservations/health-statement?orgId={org_id}&healthStatementId={health_statement_id} is used to invite friends to fill a health statement before attending the restaurant. We can use the health_statement_id to access the https://tgm-api.tabit.cloud/health-statement/{health_statement_id} API which disclose medical information as well as id number."
+    },
+    {
+        "CVE_ID": "CVE-2022-28533",
+        "Description": "Sourcecodester Medical Hub Directory Site 1.0 is vulnerable to SQL Injection via /mhds/clinic/view_details.php."
+    },
+    {
+        "CVE_ID": "CVE-2022-2693",
+        "Description": "A vulnerability has been found in SourceCodester Electronic Medical Records System and classified as critical. This vulnerability affects unknown code of the file register.php of the component UPDATE Statement Handler. The manipulation of the argument pconsultation leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-205816."
+    },
+    {
+        "CVE_ID": "CVE-2022-2676",
+        "Description": "A vulnerability was found in SourceCodester Electronic Medical Records System and classified as critical. Affected by this issue is some unknown functionality of the component POST Request Handler. The manipulation of the argument user_email leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-205664."
+    },
+    {
+        "CVE_ID": "CVE-2022-25394",
+        "Description": "Medical Store Management System v1.0 was discovered to contain a SQL injection vulnerability via the cid parameter under customer-add.php."
+    },
+    {
+        "CVE_ID": "CVE-2022-23612",
+        "Description": "OpenMRS is a patient-based medical record system focusing on giving providers a free customizable electronic medical record system. Affected versions are subject to arbitrary file exfiltration due to failure to sanitize request when satisfying GET requests for `/images` & `/initfilter/scripts`. This can allow an attacker to access any file on a system running OpenMRS that is accessible to the user id OpenMRS is running under. Affected implementations should update to the latest patch version of OpenMRS Core for the minor version they use. These are: 2.1.5, 2.2.1, 2.3.5, 2.4.5 and 2.5.3. As a general rule, this vulnerability is already mitigated by Tomcat's URL normalization in Tomcat 7.0.28+. Users on older versions of Tomcat should consider upgrading their Tomcat instance as well as their OpenMRS instance."
+    },
+    {
+        "CVE_ID": "CVE-2022-0388",
+        "Description": "The Interactive Medical Drawing of Human Body WordPress plugin before 2.6 does not sanitise and escape the Link field, allowing high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed."
+    },
+    {
+        "CVE_ID": "CVE-2021-39376",
+        "Description": "Philips Healthcare Tasy Electronic Medical Record (EMR) 3.06 allows SQL injection via the CorCad_F2/executaConsultaEspecifico IE_CORPO_ASSIST or CD_USUARIO_CONVENIO parameter."
+    },
+    {
+        "CVE_ID": "CVE-2021-39375",
+        "Description": "Philips Healthcare Tasy Electronic Medical Record (EMR) 3.06 allows SQL injection via the WAdvancedFilter/getDimensionItemsByCode FilterValue parameter."
+    },
+    {
+        "CVE_ID": "CVE-2021-32025",
+        "Description": "An elevation of privilege vulnerability in the QNX Neutrino Kernel of affected versions of QNX Software Development Platform version(s) 6.4.0 to 7.0, QNX Momentics all 6.3.x versions, QNX OS for Safety versions 1.0.0 to 1.0.2, QNX OS for Safety versions 2.0.0 to 2.0.1, QNX for Medical versions 1.0.0 to 1.1.1, and QNX OS for Medical version 2.0.0 could allow an attacker to potentially access data, modify behavior, or permanently crash the system."
+    },
+    {
+        "CVE_ID": "CVE-2021-27410",
+        "Description": "The affected product is vulnerable to an out-of-bounds write, which may result in corruption of data or code execution on the Welch Allyn medical device management tools (Welch Allyn Service Tool: versions prior to v1.10, Welch Allyn Connex Device Integration Suite &#8211; Network Connectivity Engine (NCE): versions prior to v5.3, Welch Allyn Software Development Kit (SDK): versions prior to v3.2, Welch Allyn Connex Central Station (CS): versions prior to v1.8.6, Welch Allyn Service Monitor: versions prior to v1.7.0.0, Welch Allyn Connex Vital Signs Monitor (CVSM): versions prior to v2.43.02, Welch Allyn Connex Integrated Wall System (CIWS): versions prior to v2.43.02, Welch Allyn Connex Spot Monitor (CSM): versions prior to v1.52, Welch Allyn Spot Vital Signs 4400 Device (Spot 4400) / Welch Allyn Spot 4400 Vital Signs Extended Care Device: versions prior to v1.11.00)."
+    },
+    {
+        "CVE_ID": "CVE-2021-27408",
+        "Description": "The affected product is vulnerable to an out-of-bounds read, which can cause information leakage leading to arbitrary code execution if chained to the out-of-bounds write vulnerability on the Welch Allyn medical device management tools (Welch Allyn Service Tool: versions prior to v1.10, Welch Allyn Connex Device Integration Suite &#8211; Network Connectivity Engine (NCE): versions prior to v5.3, Welch Allyn Software Development Kit (SDK): versions prior to v3.2, Welch Allyn Connex Central Station (CS): versions prior to v1.8.6, Welch Allyn Service Monitor: versions prior to v1.7.0.0, Welch Allyn Connex Vital Signs Monitor (CVSM): versions prior to v2.43.02, Welch Allyn Connex Integrated Wall System (CIWS): versions prior to v2.43.02, Welch Allyn Connex Spot Monitor (CSM): versions prior to v1.52, Welch Allyn Spot Vital Signs 4400 Device (Spot 4400) / Welch Allyn Spot 4400 Vital Signs Extended Care Device: versions prior to v1.11.00)."
+    },
+    {
+        "CVE_ID": "CVE-2021-22156",
+        "Description": "An integer overflow vulnerability in the calloc() function of the C runtime library of affected versions of BlackBerry® QNX Software Development Platform (SDP) version(s) 6.5.0SP1 and earlier, QNX OS for Medical 1.1 and earlier, and QNX OS for Safety 1.0.1 and earlier that could allow an attacker to potentially perform a denial of service or execute arbitrary code."
+    },
+    {
+        "CVE_ID": "CVE-2020-8788",
+        "Description": "Synaptive Medical ClearCanvas ImageServer 3.0 Alpha allows XSS (and HTML injection) via the Default.aspx UserName parameter. NOTE: the issues/227 reference does not imply that the affected product can be downloaded from GitHub. It was simply a convenient location for a public bug report."
+    },
+    {
+        "CVE_ID": "CVE-2020-28939",
+        "Description": "OpenClinic version 0.8.2 is affected by a medical/test_new.php insecure file upload vulnerability. This vulnerability allows authenticated users (with substantial privileges) to upload malicious files, such as PHP web shells, which can lead to arbitrary code execution on the application server."
+    },
+    {
+        "CVE_ID": "CVE-2020-28937",
+        "Description": "OpenClinic version 0.8.2 is affected by a missing authentication vulnerability that allows unauthenticated users to access any patient's medical test results, possibly resulting in disclosure of Protected Health Information (PHI) stored in the application, via a direct request for the /tests/ URI."
+    },
+    {
+        "CVE_ID": "CVE-2020-27290",
+        "Description": "In Hamilton Medical AG,T1-Ventillator versions 2.2.3 and prior, an information disclosure vulnerability in the ventilator allows attackers with physical access to the configuration interface's logs to get valid checksums for tampered configuration files."
+    },
+    {
+        "CVE_ID": "CVE-2020-27282",
+        "Description": "In Hamilton Medical AG,T1-Ventillator versions 2.2.3 and prior, an XML validation vulnerability in the ventilator allows privileged attackers with physical access to render the device persistently unusable by uploading specially crafted configuration files."
+    },
+    {
+        "CVE_ID": "CVE-2020-27278",
+        "Description": "In Hamilton Medical AG,T1-Ventillator versions 2.2.3 and prior, hard-coded credentials in the ventilator allow attackers with physical access to obtain admin privileges for the device&#8217;s configuration interface."
+    },
+    {
+        "CVE_ID": "CVE-2020-24862",
+        "Description": "The catID parameter in Pharmacy Medical Store and Sale Point v1.0 has been found to be vulnerable to a Time-Based blind SQL injection via the /medical/inventories.php path which allows attackers to retrieve all databases."
+    },
+    {
+        "CVE_ID": "CVE-2020-12037",
+        "Description": "Baxter PrismaFlex all versions, PrisMax all versions prior to 3.x, The affected devices do not implement data-in-transit encryption (e.g., TLS/SSL) when configured to send treatment data to a PDMS (Patient Data Management System) or an EMR (Electronic Medical Record) system. An attacker could observe sensitive data sent from the device."
+    },
+    {
+        "CVE_ID": "CVE-2020-12036",
+        "Description": "Baxter PrismaFlex all versions, PrisMax all versions prior to 3.x, The affected devices do not implement data-in-transit encryption (e.g., TLS/SSL) when configured to send treatment data to a PDMS (Patient Data Management System) or an EMR (Electronic Medical Record) system. An attacker could observe sensitive data sent from the device."
+    },
+    {
+        "CVE_ID": "CVE-2019-9607",
+        "Description": "PHP Scripts Mall Medical Store Script 3.0.3 allows Path Traversal by navigating to the parent directory of a jpg or png file."
+    },
+    {
+        "CVE_ID": "CVE-2019-5024",
+        "Description": "A restricted environment escape vulnerability exists in the &#8220;kiosk mode&#8221; function of Capsule Technologies SmartLinx Neuron 2 medical information collection devices running versions 9.0.3 or lower. A specific series of keyboard inputs can escape the restricted environment, resulting in full administrator access to the underlying operating system. An attacker can connect to the device via USB port with a keyboard or other HID device to trigger this vulnerability."
+    },
+    {
+        "CVE_ID": "CVE-2019-18254",
+        "Description": "BIOTRONIK CardioMessenger II, The affected products do not encrypt sensitive information while at rest. An attacker with physical access to the CardioMessenger can disclose medical measurement data and the serial number from the implanted cardiac device the CardioMessenger is paired with."
+    },
+    {
+        "CVE_ID": "CVE-2019-11687",
+        "Description": "An issue was discovered in the DICOM Part 10 File Format in the NEMA DICOM Standard 1995 through 2019b. The preamble of a DICOM file that complies with this specification can contain the header for an executable file, such as Portable Executable (PE) malware. This space is left unspecified so that dual-purpose files can be created. (For example, dual-purpose TIFF/DICOM files are used in digital whole slide imaging for applications in medicine.) To exploit this vulnerability, someone must execute a maliciously crafted file that is encoded in the DICOM Part 10 File Format. PE/DICOM files are executable even with the .dcm file extension. Anti-malware configurations at healthcare facilities often ignore medical imagery. Also, anti-malware tools and business processes could violate regulatory frameworks (such as HIPAA) when processing suspicious DICOM files."
+    },
+    {
+        "CVE_ID": "CVE-2018-8856",
+        "Description": "Philips e-Alert Unit (non-medical device), Version R2.1 and prior. The software contains hard-coded cryptographic key, which it uses for encryption of internal data."
+    },
+    {
+        "CVE_ID": "CVE-2018-8854",
+        "Description": "Philips e-Alert Unit (non-medical device), Version R2.1 and prior. The software does not properly restrict the size or amount of resources requested or influenced by an actor, which can be used to consume more resources than intended."
+    },
+    {
+        "CVE_ID": "CVE-2018-8852",
+        "Description": "Philips e-Alert Unit (non-medical device), Version R2.1 and prior. When authenticating a user or otherwise establishing a new user session, the software gives an attacker the opportunity to steal authenticated sessions without invalidating any existing session identifier."
+    },
+    {
+        "CVE_ID": "CVE-2018-8850",
+        "Description": "Philips e-Alert Unit (non-medical device), Version R2.1 and prior. The software does not validate input properly, allowing an attacker to craft the input in a form that is not expected by the rest of the application. This would lead to parts of the unit receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."
+    },
+    {
+        "CVE_ID": "CVE-2018-8848",
+        "Description": "Philips e-Alert Unit (non-medical device), Version R2.1 and prior. The software, upon installation, sets incorrect permissions for an object that exposes it to an unintended actor."
+    },
+    {
+        "CVE_ID": "CVE-2018-8846",
+        "Description": "Philips e-Alert Unit (non-medical device), Version R2.1 and prior. The software does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is then served to other users."
+    },
+    {
+        "CVE_ID": "CVE-2018-8844",
+        "Description": "Philips e-Alert Unit (non-medical device), Version R2.1 and prior. The web application does not, or cannot, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request."
+    },
+    {
+        "CVE_ID": "CVE-2018-8842",
+        "Description": "Philips e-Alert Unit (non-medical device), Version R2.1 and prior. The software transmits sensitive or security-critical data in cleartext in a communication channel that can be sniffed by unauthorized actors. The Philips e-Alert communication channel is not encrypted which could therefore lead to disclosure of personal contact information and application login credentials from within the same subnet."
+    },
+    {
+        "CVE_ID": "CVE-2018-7526",
+        "Description": "In TotalAlert Web Application in BeaconMedaes Scroll Medical Air Systems prior to v4107600010.23, by accessing a specific uniform resource locator (URL) on the webserver, a malicious user may be able to access information in the application without authenticating."
+    },
+    {
+        "CVE_ID": "CVE-2018-7518",
+        "Description": "In TotalAlert Web Application in BeaconMedaes Scroll Medical Air Systems prior to v4107600010.23, an attacker with network access to the integrated web server could retrieve default or user defined credentials stored and transmitted in an insecure manner."
+    },
+    {
+        "CVE_ID": "CVE-2018-7510",
+        "Description": "In the web application in BeaconMedaes TotalAlert Scroll Medical Air Systems running software versions prior to 4107600010.23, passwords are presented in plaintext in a file that is accessible without authentication."
+    },
+    {
+        "CVE_ID": "CVE-2018-5457",
+        "Description": "A uncontrolled search path element issue was discovered in Vyaire Medical CareFusion Upgrade Utility used with Windows XP systems, Versions 2.0.2.2 and prior versions. A successful exploit of this vulnerability requires the local user to install a crafted DLL on the target machine. The application loads the DLL and gives the attacker access at the same privilege level as the application."
+    },
+    {
+        "CVE_ID": "CVE-2018-5438",
+        "Description": "Philips ISCV application prior to version 2.3.0 has an insufficient session expiration vulnerability where an attacker could reuse the session of a previously logged in user. This vulnerability exists when using ISCV together with an Electronic Medical Record (EMR) system, where ISCV is in KIOSK mode for multiple users and using Windows authentication. This may allow an attacker to gain unauthorized access to patient health information and potentially modify this information."
+    },
+    {
+        "CVE_ID": "CVE-2018-18979",
+        "Description": "An issue was discovered in the Ascensia Contour NEXT ONE application for Android before 2019-01-15. It has a statically coded initialization vector. Extraction of the initialization vector is necessary for deciphering communications between this application and the backend server. This, in combination with retrieving any user's encrypted data from the Ascensia cloud through another vulnerability, allows an attacker to obtain and modify any patient's medical information."
+    },
+    {
+        "CVE_ID": "CVE-2018-18978",
+        "Description": "An issue was discovered in the Ascensia Contour NEXT ONE application for Android before 2019-01-15. It has a statically coded encryption key. Extraction of the encryption key is necessary for deciphering communications between this application and the backend server. This, in combination with retrieving any user's encrypted data from the Ascensia cloud through another vulnerability, allows an attacker to obtain and modify any patient's medical information."
+    },
+    {
+        "CVE_ID": "CVE-2018-18977",
+        "Description": "An issue was discovered in the Ascensia Contour NEXT ONE application for Android before 2019-01-15. An attacker may reverse engineer the codebase to extract sensitive data that contributes to the disclosure of medical information of patients utilizing the Ascensia platform. This occurs because of weak obfuscation."
+    },
+    {
+        "CVE_ID": "CVE-2018-18976",
+        "Description": "An issue was discovered in the Ascensia Contour NEXT ONE application for iOS and Android before 2019-01-15. An attacker may retrieve encrypted medical information of any user of the Ascensia cloud platform by performing Direct Object References with a series of user ID values. (This information can be decrypted through a different vulnerability.)"
+    },
+    {
+        "CVE_ID": "CVE-2018-18975",
+        "Description": "An issue was discovered in the Ascensia Contour NEXT ONE app for iOS before 2019-01-15. An attacker may proxy communications between the app and Ascensia backend servers because of a weak certificate-pinning implementation, leading to disclosure of medical information."
+    },
+    {
+        "CVE_ID": "CVE-2018-14803",
+        "Description": "Philips e-Alert Unit (non-medical device), Version R2.1 and prior. The Philips e-Alert contains a banner disclosure vulnerability that could allow attackers to obtain extraneous product information, such as OS and software components, via the HTTP response header that is normally not available to the attacker, but might be useful information in an attack."
+    },
+    {
+        "CVE_ID": "CVE-2018-14786",
+        "Description": "Becton, Dickinson and Company (BD) Alaris Plus medical syringe pumps (models Alaris GS, Alaris GH, Alaris CC, and Alaris TIVA) versions 2.3.6 and prior are affected by an improper authentication vulnerability where the software does not perform authentication for functionality that requires a provable user identity, where it may allow a remote attacker to gain unauthorized access to various Alaris Syringe pumps and impact the intended operation of the pump when it is connected to a terminal server via the serial port."
+    },
+    {
+        "CVE_ID": "CVE-2017-6018",
+        "Description": "An open redirect issue was discovered in B. Braun Medical SpaceCom module, which is integrated into the SpaceStation docking station: SpaceStation with SpaceCom module (integrated as part number 8713142U), software versions prior to Version 012U000040, and SpaceStation (part number 8713140U) with installed SpaceCom module (part number 8713160U), software versions prior to Version 012U000040. The web server of the affected product accepts untrusted input which could allow attackers to redirect the request to an unintended URL contained within untrusted input."
+    },
+    {
+        "CVE_ID": "CVE-2017-5149",
+        "Description": "An issue was discovered in St. Jude Medical Merlin@home, versions prior to Version 8.2.2 (RF models: EX1150; Inductive models: EX1100; and Inductive models: EX1100 with MerlinOnDemand capability). The identities of the endpoints for the communication channel between the transmitter and St. Jude Medical's web site, Merlin.net, are not verified. This may allow a man-in-the-middle attacker to access or influence communications between the identified endpoints."
+    },
+    {
+        "CVE_ID": "CVE-2017-16776",
+        "Description": "Security researchers discovered an authentication bypass vulnerability in version 2.0.2 of the Conserus Workflow Intelligence application by McKesson Medical Imaging Company, which is now a Change Healthcare company. The attacker must send a malicious HTTP GET request to exploit the vulnerability. The vulnerability allows an attacker to bypass authentication and escalate privileges of valid users. An unauthenticated attacker can exploit the vulnerability and be granted limited access to other accounts. An authenticated attacker can exploit the vulnerability and be granted access reserved for higher privilege users."
+    },
+    {
+        "CVE_ID": "CVE-2017-14101",
+        "Description": "A security researcher found an XML External Entity (XXE) vulnerability on the Conserus Image Repository archive solution version 2.1.1.105 by McKesson Medical Imaging Company, which is now a Change Healthcare company. An unauthenticated user supplying a modified HTTP SOAP request to the vulnerable service allows for arbitrary file read access to the local file system as well as the transmittal of the application service's account hashed credentials to a remote attacker."
+    },
+    {
+        "CVE_ID": "CVE-2017-14006",
+        "Description": "GE Xeleris versions 1.0,1.1,2.1,3.0,3.1, medical imaging systems, all current versions are affected, these devices use default or hard-coded credentials. Successful exploitation of this vulnerability may allow a remote attacker to bypass authentication and gain access to the affected devices."
+    },
+    {
+        "CVE_ID": "CVE-2017-14002",
+        "Description": "GE Infinia/Infinia with Hawkeye 4 medical imaging systems all current versions are affected these devices use default or hard-coded credentials. Successful exploitation of this vulnerability may allow a remote attacker to bypass authentication and gain access to the affected devices."
+    },
+    {
+        "CVE_ID": "CVE-2017-12726",
+        "Description": "A Use of Hard-coded Password issue was discovered in Smiths Medical Medfusion 4000 Wireless Syringe Infusion Pump, Version 1.1, 1.5, and 1.6. Telnet on the pump uses hardcoded credentials, which can be used if the pump is configured to allow external communications. Smiths Medical assesses that it is not possible to upload files via Telnet and the impact of this vulnerability is limited to the communications module."
+    },
+    {
+        "CVE_ID": "CVE-2017-12725",
+        "Description": "A Use of Hard-coded Credentials issue was discovered in Smiths Medical Medfusion 4000 Wireless Syringe Infusion Pump, Version 1.1, 1.5, and 1.6. The pump with default network configuration uses hard-coded credentials to automatically establish a wireless network connection. The pump will establish a wireless network connection even if the pump is Ethernet connected and active; however, if the wireless association is established and the Ethernet cable is attached, the pump does not attach the network stack to the wireless network. In this scenario, all network traffic is instead directed over the wired Ethernet connection."
+    },
+    {
+        "CVE_ID": "CVE-2017-12724",
+        "Description": "A Use of Hard-coded Credentials issue was discovered in Smiths Medical Medfusion 4000 Wireless Syringe Infusion Pump, Version 1.1, 1.5, and 1.6. The FTP server on the pump contains hardcoded credentials, which are not fully initialized. The FTP server is only accessible if the pump is configured to allow FTP connections."
+    },
+    {
+        "CVE_ID": "CVE-2017-12723",
+        "Description": "A Password in Configuration File issue was discovered in Smiths Medical Medfusion 4000 Wireless Syringe Infusion Pump, Version 1.1, 1.5, and 1.6. The pump stores some passwords in the configuration file, which are accessible if the pump is configured to allow external communications."
+    },
+    {
+        "CVE_ID": "CVE-2017-12722",
+        "Description": "An Out-of-bounds Read issue was discovered in Smiths Medical Medfusion 4000 Wireless Syringe Infusion Pump, Version 1.1, 1.5, and 1.6. A third-party component used in the pump reads memory out of bounds, causing the communications module to crash. Smiths Medical assesses that the crash of the communications module would not impact the operation of the therapeutic module."
+    },
+    {
+        "CVE_ID": "CVE-2017-12721",
+        "Description": "An Improper Certificate Validation issue was discovered in Smiths Medical Medfusion 4000 Wireless Syringe Infusion Pump, Version 1.1, 1.5, and 1.6. The pump does not validate host certificates, leaving the pump vulnerable to a man-in-the-middle (MITM) attack."
+    },
+    {
+        "CVE_ID": "CVE-2017-12720",
+        "Description": "An Improper Access Control issue was discovered in Smiths Medical Medfusion 4000 Wireless Syringe Infusion Pump, Version 1.1, 1.5, and 1.6. The FTP server on the pump does not require authentication if the pump is configured to allow FTP connections."
+    },
+    {
+        "CVE_ID": "CVE-2017-12718",
+        "Description": "A Classic Buffer Overflow issue was discovered in Smiths Medical Medfusion 4000 Wireless Syringe Infusion Pump, Version 1.1, 1.5, and 1.6. A third-party component used in the pump does not verify input buffer size prior to copying, leading to a buffer overflow, allowing remote code execution on the target device. The pump receives the potentially malicious input infrequently and under certain conditions, increasing the difficulty of exploitation."
+    },
+    {
+        "CVE_ID": "CVE-2017-12701",
+        "Description": "BMC Medical Luna CPAP Machines released prior to July 1, 2017, contain an improper input validation vulnerability which may allow an authenticated attacker to crash the CPAP's Wi-Fi module resulting in a denial-of-service condition."
+    },
+    {
+        "CVE_ID": "CVE-2017-10724",
+        "Description": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that an attacker connected to the device Wi-Fi SSID can exploit a memory corruption issue and execute remote code on the device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries. The firmware contains binary uvc_stream that is the UDP daemon which is responsible for handling all the UDP requests that the device receives. The client application sends a UDP request to change the Wi-Fi name which contains the following format: \"SETCMD0001+0002+[2 byte length of wifipassword]+[Wifipassword]. This request is handled by \"control_Dev_thread\" function which at address \"0x00409AE4\" compares the incoming request and determines if the 10th byte is 02 and if it is then it redirects to 0x0040A7D8, which calls the function \"setwifipassword\". The function \"setwifipassword\" uses a memcpy function but uses the length of the payload obtained by using strlen function as the third parameter which is the number of bytes to copy and this allows an attacker to overflow the function and control the $PC value."
+    },
+    {
+        "CVE_ID": "CVE-2017-10723",
+        "Description": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that an attacker connected to the device Wi-Fi SSID can exploit a memory corruption issue and execute remote code on the device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries. The firmware contains binary uvc_stream that is the UDP daemon which is responsible for handling all the UDP requests that the device receives. The client application sends a UDP request to change the Wi-Fi name which contains the following format: \"SETCMD0001+0001+[2 byte length of wifiname]+[Wifiname]. This request is handled by \"control_Dev_thread\" function which at address \"0x00409AE0\" compares the incoming request and determines if the 10th byte is 01 and if it is then it redirects to 0x0040A74C which calls the function \"setwifiname\". The function \"setwifiname\" uses a memcpy function but uses the length of the payload obtained by using strlen function as the third parameter which is the number of bytes to copy and this allows an attacker to overflow the function and control the $PC value."
+    },
+    {
+        "CVE_ID": "CVE-2017-10721",
+        "Description": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that the device has Telnet functionality enabled by default. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries."
+    },
+    {
+        "CVE_ID": "CVE-2017-10719",
+        "Description": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that the device has default Wi-Fi credentials that are exactly the same for every device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries."
+    },
+    {
+        "CVE_ID": "CVE-2017-10718",
+        "Description": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that any malicious user connecting to the device can change the default SSID and password thereby denying the owner an access to his/her own device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries."
+    },
+    {
+        "CVE_ID": "CVE-2016-8358",
+        "Description": "An issue was discovered in Smiths-Medical CADD-Solis Medication Safety Software, Version 1.0; 2.0; 3.0; and 3.1. The affected software does not verify the identities at communication endpoints, which may allow a man-in-the-middle attacker to gain access to the communication channel between endpoints."
+    },
+    {
+        "CVE_ID": "CVE-2016-8355",
+        "Description": "An issue was discovered in Smiths-Medical CADD-Solis Medication Safety Software, Version 1.0; 2.0; 3.0; and 3.1. CADD-Solis Medication Safety Software grants an authenticated user elevated privileges on the SQL database, which would allow an authenticated user to modify drug libraries, add and delete users, and change user permissions. According to Smiths-Medical, physical access to the pump is required to install drug library updates."
+    },
+    {
+        "CVE_ID": "CVE-2016-4328",
+        "Description": "MEDHOST Perioperative Information Management System (aka PIMS or VPIMS) before 2015R1 has hardcoded credentials, which makes it easier for remote attackers to obtain sensitive information via direct requests to the application database server."
+    },
+    {
+        "CVE_ID": "CVE-2014-6713",
+        "Description": "The MedQuiz: Medical Chat and MCQs (aka com.pdevsmedd.med) application 1.5 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+    },
+    {
+        "CVE_ID": "CVE-2013-4425",
+        "Description": "The DICOM listener in OsiriX before 5.8 and before 2.5-MD, when starting up, encrypts the TLS private key file using \"SuperSecretPassword\" as the hardcoded password, which allows local users to obtain the private key."
+    },
+    {
+        "CVE_ID": "CVE-2011-3386",
+        "Description": "Unspecified vulnerability in Medtronic Paradigm wireless insulin pump 512, 522, 712, and 722 allows remote attackers to modify the delivery of an insulin bolus dose and cause a denial of service (adverse human health effects) via unspecified vectors involving wireless communications and knowledge of the device's serial number, as demonstrated by Jerome Radcliffe at the Black Hat USA conference in August 2011. NOTE: the vendor has disputed the severity of this issue, saying \"we believe the risk of deliberate, malicious, or unauthorized manipulation of medical devices is extremely low... we strongly believe it would be extremely difficult for a third-party to wirelessly tamper with your insulin pump... you would be able to detect tones on the insulin pump that weren't intentionally programmed and could intervene accordingly.\""
+    },
+    {
+        "CVE_ID": "CVE-2006-2517",
+        "Description": "SQL injection vulnerability in MyWeb Portal Office, Standard Edition, Public Edition, Medical Edition, Citizen Edition, School Edition, and Light Edition allows remote attackers to execute arbitrary SQL commands via unknown attack vectors."
+    },
+    {
+        "CVE_ID": "CVE-2005-2285",
+        "Description": "WebEOC before 6.0.2 stores sensitive information in locations such as URIs, web pages, and configuration files, which allows remote attackers to obtain information such as Usernames, Passwords, Emergency information, medical information, and system configuration."
+    }
+]

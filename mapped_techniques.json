@@ -1,0 +1,438 @@
+[
+    {
+        "CVE_ID": "CVE-2024-53522",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-50593",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-50592",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-50591",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-50590",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-50589",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-50588",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-48703",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-44024",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-40392",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-36673",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-33606",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-23747",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-23674",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-10412",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-10301",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-10300",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-10299",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-10298",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-10297",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2024-10296",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-6425",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-33255",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-29863",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-2628",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-1566",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-1151",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-1006",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-0888",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-0774",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-0707",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2023-0706",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-38765",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-37461",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-35117",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-34770",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-28533",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-2693",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-2676",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-25394",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-23612",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2022-0388",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2021-39376",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2021-39375",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2021-32025",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2021-27410",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2021-27408",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2021-22156",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2020-8788",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2020-28939",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2020-28937",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2020-27290",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2020-27282",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2020-27278",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2020-24862",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2020-12037",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2020-12036",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2019-9607",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2019-5024",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2019-18254",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2019-11687",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-8856",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-8854",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-8852",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-8850",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-8848",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-8846",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-8844",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-8842",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-7526",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-7518",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-7510",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-5457",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-5438",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-18979",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-18978",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-18977",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-18976",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-18975",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-14803",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2018-14786",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-6018",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-5149",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-16776",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-14101",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-14006",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-14002",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-12726",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-12725",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-12724",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-12723",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-12722",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-12721",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-12720",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-12718",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-12701",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-10724",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-10723",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-10721",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-10719",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2017-10718",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2016-8358",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2016-8355",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2016-4328",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2014-6713",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2013-4425",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2011-3386",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2006-2517",
+        "Techniques": []
+    },
+    {
+        "CVE_ID": "CVE-2005-2285",
+        "Techniques": []
+    }
+]
